@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import chainlist from '../public/chainlist.jpg'
-import tradingvalorizado from '../public/trading-valorizado.jpg'
+
 
 /* This example requires Tailwind CSS v2.0+ */
 const posts = [
@@ -12,7 +11,7 @@ const posts = [
             'Adicione facilmente uma rede RPC em sua Wallet. Chainlist é uma lista de redes EVM (Virtual Machines do Ethereum). Os usuários podem usar os links para conectar suas carteiras Web3 como a Metamask.',
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
-        imageUrl: chainlist,
+        imageUrl: '/chainlist.jpg',
     },
     {
         title: 'DeFi Valorizado',
@@ -21,7 +20,7 @@ const posts = [
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
         date: 'Mar 10, 2020',
         datetime: '2020-03-10',
-        imageUrl: tradingvalorizado,
+        imageUrl: '/trading-valorizado.jpg',
     },
     {
         title: 'Trading Valorizado',
@@ -30,7 +29,7 @@ const posts = [
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
         date: 'Feb 12, 2020',
         datetime: '2020-02-12',
-        imageUrl: tradingvalorizado,
+        imageUrl: '/trading-valorizado.jpg',
     },
 ]
 
@@ -48,34 +47,80 @@ export default function ToolsList() {
                     </p>
                 </div>
                 <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-                    {posts.map((post) => (
 
-                        <div key={post.title} className="flex flex-col rounded-lg shadow-lg overflow-hidden group">
-                            <>
-                                <div className="flex-shrink-0">
-                                    <div className="h-64 w-full relative">
-                                        <Image
-                                            src={post.imageUrl}
-                                            layout="fill"
-                                            objectFit="cover"
-                                            alt=""
-                                        />
-                                    </div>
-                                </div>
-                                <div className="flex-1 bg-white p-6 flex flex-col justify-between">
-                                    <div className="flex-1">
-                                        <Link href={post.href}>
-                                            <a target="_blank" className="block mt-2">
-                                                <p className="text-2xl font-bold text-blue-700">{post.title}</p>
-                                                <p className="mt-3 text-base text-gray-500">{post.description}</p>
-                                            </a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </>
+
+                    <div className="flex flex-col rounded-lg shadow-lg overflow-hidden group">
+                        <div className="flex-shrink-0">
+                            <div className="h-64 w-full relative">
+                                <Image
+                                    src="/chainlist.jpg"
+                                    layout="fill"
+                                    objectFit="cover"
+                                    alt=""
+                                />
+                            </div>
                         </div>
+                        <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+                            <div className="flex-1">
+                                <Link href='https://chainlist-real-valorizado.vercel.app/'>
+                                    <a target="_blank" className="block mt-2">
+                                        <p className="text-2xl font-bold text-blue-700">Chainlist</p>
+                                        <p className="mt-3 text-base text-gray-500">Adicione facilmente uma rede RPC em sua Wallet. Chainlist é uma lista de redes EVM (Virtual Machines do Ethereum). Os usuários podem usar os links para conectar suas carteiras Web3 como a Metamask.</p>
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
 
-                    ))}
+                    <div className="flex flex-col rounded-lg shadow-lg overflow-hidden group">
+                        <div className="flex-shrink-0">
+                            <div className="h-64 w-full relative">
+                                <Image
+                                    src="/chainlist.jpg"
+                                    layout="fill"
+                                    objectFit="cover"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                        <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+                            <div className="flex-1">
+                                <Link href='#'>
+                                    <a target="_blank" className="block mt-2">
+                                        <p className="text-2xl font-bold text-blue-700">DeFi Valorizado</p>
+                                        <p className="mt-3 text-base text-gray-500">Adicione facilmente uma rede RPC em sua Wallet. Chainlist é uma lista de redes EVM (Virtual Machines do Ethereum). Os usuários podem usar os links para conectar suas carteiras Web3 como a Metamask.</p>
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col rounded-lg shadow-lg overflow-hidden group">
+                        <div className="flex-shrink-0">
+                            <div className="h-64 w-full relative">
+                                <Image
+                                    src="/trading-valorizado.jpg"
+                                    layout="fill"
+                                    objectFit="cover"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                        <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+                            <div className="flex-1">
+                                <Link href='https://chainlist-real-valorizado.vercel.app/'>
+                                    <a target="_blank" className="block mt-2">
+                                        <p className="text-2xl font-bold text-blue-700">Trading Valorizado</p>
+                                        <p className="mt-3 text-base text-gray-500">Adicione facilmente uma rede RPC em sua Wallet. Chainlist é uma lista de redes EVM (Virtual Machines do Ethereum). Os usuários podem usar os links para conectar suas carteiras Web3 como a Metamask.</p>
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
                 </div>
             </div>
         </div>
