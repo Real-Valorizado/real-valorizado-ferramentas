@@ -3,7 +3,7 @@ import { AdvancedRealTimeChart } from "react-ts-tradingview-widgets";
 export default function AdvanceRealTimeChart() {
     return (
         <div className="max-w-screen mx-auto h-screen">
-            <div className="h-full">
+            <div className="h-5/6">
                 <AdvancedRealTimeChart
                     symbol="BINANCE:BTCBRL"
                     interval="D"
