@@ -1,5 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
+import chainlist from '../public/chainlist.jpg'
+import tradingvalorizado from '../public/trading-valorizado.jpg'
 
 /* This example requires Tailwind CSS v2.0+ */
 const posts = [
@@ -10,7 +12,7 @@ const posts = [
             'Adicione facilmente uma rede RPC em sua Wallet. Chainlist é uma lista de redes EVM (Virtual Machines do Ethereum). Os usuários podem usar os links para conectar suas carteiras Web3 como a Metamask.',
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
-        imageUrl: '/chainlist.jpg',
+        imageUrl: chainlist,
     },
     {
         title: 'DeFi Valorizado',
@@ -19,7 +21,7 @@ const posts = [
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
         date: 'Mar 10, 2020',
         datetime: '2020-03-10',
-        imageUrl: '/trading-valorizado.jpg',
+        imageUrl: tradingvalorizado,
     },
     {
         title: 'Trading Valorizado',
@@ -28,7 +30,7 @@ const posts = [
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
         date: 'Feb 12, 2020',
         datetime: '2020-02-12',
-        imageUrl: '/trading-valorizado.jpg',
+        imageUrl: tradingvalorizado,
     },
 ]
 
