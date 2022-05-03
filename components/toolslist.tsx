@@ -2,7 +2,6 @@ import Image from "next/image"
 import Link from "next/link"
 
 
-
 export default function ToolsList() {
     return (
         <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
@@ -34,7 +33,7 @@ export default function ToolsList() {
                                 <Link href='https://chainlist-real-valorizado.vercel.app/'>
                                     <a target="_blank" className="block mt-2">
                                         <p className="text-2xl font-bold text-blue-700">Chainlist</p>
-                                        <p className="mt-3 text-base text-gray-500">Adicione facilmente uma rede RPC em sua Wallet. Chainlist é uma lista de redes EVM (Virtual Machines do Ethereum). Os usuários podem usar os links para conectar suas carteiras Web3 como a Metamask.</p>
+                                        <p className="mt-3 text-base text-gray-500">Adicione facilmente uma rede RPC em sua Carteira. Chainlist é uma lista de blockchains EVM os usuários podem usar os links para conectar suas carteiras web3.</p>
                                     </a>
                                 </Link>
                             </div>
@@ -57,7 +56,7 @@ export default function ToolsList() {
                                 <Link href='#'>
                                     <a target="_blank" className="block mt-2">
                                         <p className="text-2xl font-bold text-blue-700">DeFi Valorizado</p>
-                                        <p className="mt-3 text-base text-gray-500">Adicione facilmente uma rede RPC em sua Wallet. Chainlist é uma lista de redes EVM (Virtual Machines do Ethereum). Os usuários podem usar os links para conectar suas carteiras Web3 como a Metamask.</p>
+                                        <p className="mt-3 text-base text-gray-500">Em desenvolvimento</p>
                                     </a>
                                 </Link>
                             </div>
@@ -80,7 +79,7 @@ export default function ToolsList() {
                                 <Link href='/tradingvalorizado'>
                                     <a className="block mt-2">
                                         <p className="text-2xl font-bold text-blue-700">Trading Valorizado</p>
-                                        <p className="mt-3 text-base text-gray-500">Adicione facilmente uma rede RPC em sua Wallet. Chainlist é uma lista de redes EVM (Virtual Machines do Ethereum). Os usuários podem usar os links para conectar suas carteiras Web3 como a Metamask.</p>
+                                        <p className="mt-3 text-base text-gray-500">Acompanhe o preço em tempo real de diversos ativos do mercado, como ações, criptomoedas, forex e commodietes, em um gráfico intuitivo e completo.</p>
                                     </a>
                                 </Link>
                             </div>
