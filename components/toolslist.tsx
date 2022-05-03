@@ -12,7 +12,6 @@ const posts = [
         datetime: '2020-03-16',
         imageUrl:
             '/tools/chainlist.jpg',
-
     },
     {
         title: 'DeFi Valorizado',
@@ -23,7 +22,6 @@ const posts = [
         datetime: '2020-03-10',
         imageUrl:
             '/tools/trading-valorizado.jpg',
-
     },
     {
         title: 'Trading Valorizado',
@@ -34,7 +32,6 @@ const posts = [
         datetime: '2020-02-12',
         imageUrl:
             '/tools/trading-valorizado.jpg',
-
     },
 ]
 
@@ -55,12 +52,14 @@ export default function ToolsList() {
                     {posts.map((post) => (
                         <div key={post.title} className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                             <div className="flex-shrink-0">
-
-                                <img className="h-64 w-full object-cover"
-                                    src={post.imageUrl}
-                                    alt=""
-                                />
-
+                                <div className="h-64 w-full relative">
+                                    <Image
+                                        src={post.imageUrl}
+                                        layout="fill"
+                                        objectFit="cover"
+                                        alt={post.title}
+                                    />
+                                </div>
                             </div>
                             <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                                 <div className="flex-1">
@@ -71,7 +70,6 @@ export default function ToolsList() {
                                         </a>
                                     </Link>
                                 </div>
-
                             </div>
                         </div>
                     ))}
