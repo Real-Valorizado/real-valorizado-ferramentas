@@ -11,7 +11,7 @@ const posts = [
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         imageUrl:
-            '/tools/chainlist.jpg',
+            '/chainlist.jpg',
     },
     {
         title: 'DeFi Valorizado',
@@ -21,7 +21,7 @@ const posts = [
         date: 'Mar 10, 2020',
         datetime: '2020-03-10',
         imageUrl:
-            '/tools/trading-valorizado.jpg',
+            '/trading-valorizado.jpg',
     },
     {
         title: 'Trading Valorizado',
@@ -31,7 +31,7 @@ const posts = [
         date: 'Feb 12, 2020',
         datetime: '2020-02-12',
         imageUrl:
-            '/tools/trading-valorizado.jpg',
+            '/trading-valorizado.jpg',
     },
 ]
 
