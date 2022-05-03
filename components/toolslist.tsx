@@ -2,36 +2,6 @@ import Image from "next/image"
 import Link from "next/link"
 
 
-/* This example requires Tailwind CSS v2.0+ */
-const posts = [
-    {
-        title: 'Chainlist',
-        href: 'https://chainlist-real-valorizado.vercel.app/',
-        description:
-            'Adicione facilmente uma rede RPC em sua Wallet. Chainlist é uma lista de redes EVM (Virtual Machines do Ethereum). Os usuários podem usar os links para conectar suas carteiras Web3 como a Metamask.',
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
-        imageUrl: '/chainlist.jpg',
-    },
-    {
-        title: 'DeFi Valorizado',
-        href: '#',
-        description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
-        date: 'Mar 10, 2020',
-        datetime: '2020-03-10',
-        imageUrl: '/trading-valorizado.jpg',
-    },
-    {
-        title: 'Trading Valorizado',
-        href: '/tradingvalorizado',
-        description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
-        date: 'Feb 12, 2020',
-        datetime: '2020-02-12',
-        imageUrl: '/trading-valorizado.jpg',
-    },
-]
 
 export default function ToolsList() {
     return (
@@ -48,8 +18,7 @@ export default function ToolsList() {
                 </div>
                 <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
 
-
-                    <div className="flex flex-col rounded-lg shadow-lg overflow-hidden group">
+                    <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                         <div className="flex-shrink-0">
                             <div className="h-64 w-full relative">
                                 <Image
@@ -72,7 +41,7 @@ export default function ToolsList() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col rounded-lg shadow-lg overflow-hidden group">
+                    <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                         <div className="flex-shrink-0">
                             <div className="h-64 w-full relative">
                                 <Image
@@ -95,7 +64,7 @@ export default function ToolsList() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col rounded-lg shadow-lg overflow-hidden group">
+                    <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                         <div className="flex-shrink-0">
                             <div className="h-64 w-full relative">
                                 <Image
@@ -117,9 +86,6 @@ export default function ToolsList() {
                             </div>
                         </div>
                     </div>
-
-
-
 
                 </div>
             </div>
