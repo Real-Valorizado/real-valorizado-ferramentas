@@ -78,7 +78,7 @@ export default function ToolsList() {
                         <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                             <div className="flex-1">
                                 <Link href='/tradingvalorizado'>
-                                    <a target="_blank" className="block mt-2">
+                                    <a className="block mt-2">
                                         <p className="text-2xl font-bold text-blue-700">Trading Valorizado</p>
                                         <p className="mt-3 text-base text-gray-500">Adicione facilmente uma rede RPC em sua Wallet. Chainlist é uma lista de redes EVM (Virtual Machines do Ethereum). Os usuários podem usar os links para conectar suas carteiras Web3 como a Metamask.</p>
                                     </a>
