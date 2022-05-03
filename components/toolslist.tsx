@@ -54,7 +54,7 @@ export default function ToolsList() {
                                         src="/trading-valorizado.jpg"
                                         layout="fill"
                                         objectFit="cover"
-                                        alt={post.title}
+                                        alt=""
                                     />
                                 </div>
                             </div>
