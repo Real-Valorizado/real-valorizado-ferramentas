@@ -51,7 +51,7 @@ export default function ToolsList() {
                             <div className="flex-shrink-0">
                                 <div className="h-64 w-full relative">
                                     <Image
-                                        src={post.imageUrl}
+                                        src="/trading-valorizado.jpg"
                                         layout="fill"
                                         objectFit="cover"
                                         alt={post.title}
