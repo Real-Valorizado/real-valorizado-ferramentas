@@ -22,7 +22,7 @@ export default function ToolsList() {
                         <div className="flex-shrink-0">
                             <div className="h-64 w-full relative">
                                 <Image
-                                    src="/chainlist.jpg"
+                                    src="/tools/chainlist.jpg"
                                     layout="fill"
                                     objectFit="cover"
                                     alt=""
@@ -45,7 +45,7 @@ export default function ToolsList() {
                         <div className="flex-shrink-0">
                             <div className="h-64 w-full relative">
                                 <Image
-                                    src="/chainlist.jpg"
+                                    src="/tools/chainlist.jpg"
                                     layout="fill"
                                     objectFit="cover"
                                     alt=""
@@ -68,7 +68,7 @@ export default function ToolsList() {
                         <div className="flex-shrink-0">
                             <div className="h-64 w-full relative">
                                 <Image
-                                    src="/trading-valorizado.jpg"
+                                    src="/tools/trading-valorizado.jpg"
                                     layout="fill"
                                     objectFit="cover"
                                     alt=""
