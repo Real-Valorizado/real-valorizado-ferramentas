@@ -48,7 +48,7 @@ export default function ToolsList() {
                 <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
                     {posts.map((post) => (
 
-                        <div key={post.title} className="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                        <div key={post.title} className="flex flex-col rounded-lg shadow-lg overflow-hidden group">
                             <>
                                 <div className="flex-shrink-0">
                                     <div className="h-64 w-full relative">
