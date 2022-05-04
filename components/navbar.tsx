@@ -3,8 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const navigation = [
-    { name: 'Real Valorizado', href: 'https://realvalorizado.com.br' },
-    { name: 'Chainlist', href: 'https://chainlist-real-valorizado.vercel.app/' },
+    { name: 'Chainlist', href: 'https://chainlist.realvalorizado.com.br/' },
     { name: 'DeFi Valorizado', href: '#' },
     { name: 'Trading Valorizado', href: '/tradingvalorizado' },
 ]
