@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const navigation = [
     { name: 'Chainlist', href: 'https://chainlist.realvalorizado.com.br/' },
-    { name: 'Calculadora', href: '/calculadora' },
+    { name: 'Simulador de Juros', href: '/calculadora' },
     { name: 'Trading Valorizado', href: '/tradingvalorizado' },
 ]
 
