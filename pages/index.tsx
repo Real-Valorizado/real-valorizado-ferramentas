@@ -1,14 +1,30 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import Footer from '../components/footer'
-import Navbar from '../components/navbar'
 import ToolsList from '../components/toolslist'
 
 
-const Home: NextPage = () => {
+export default function Home() {
   return (
     <div>
+
+      <Head>
+        <title>Ferramentas Real Valorizado</title>
+        <meta
+          name='description'
+          content='Uma complicação das melhores ferramentas para o mercado financeiro'
+        />
+        <meta property='og:type' content='article' />
+        <meta
+          property='og:title'
+          content='Calculadora de juros composto | ferramentas.realvalorizado.com.br'
+        />
+        <meta
+          property='og:description'
+          content='Uma complicação das melhores ferramentas para o mercado financeiro'
+        />
+        <meta property='og:url' content='https://ferramentas.realvalorizado.com.br' />
+        <meta property='og:site_name' content='ferramentas.realvalorizado.com.br' />
+
+      </Head>
 
       <main>
         <ToolsList />
@@ -18,4 +34,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+

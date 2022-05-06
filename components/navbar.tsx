@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const navigation = [
     { name: 'Chainlist', href: 'https://chainlist.realvalorizado.com.br/' },
-    { name: 'DeFi Valorizado', href: '#' },
+    { name: 'Calculadora', href: '/calculadora' },
     { name: 'Trading Valorizado', href: '/tradingvalorizado' },
 ]
 
@@ -12,8 +12,6 @@ export default function Navbar() {
     return (
         <div>
             <Head>
-                <title>Ferramentas Real Valorizado</title>
-                <meta name="description" content="Uma complicação das melhores ferramentas para o mercado financeiro" />
                 <link rel="icon" href="/favicon.png" />
             </Head>
             <header className="bg-indigo-600">
