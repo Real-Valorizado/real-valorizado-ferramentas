@@ -64,7 +64,7 @@ export default function ToolsList() {
                         </div>
                         <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                             <div className="flex-1">
-                                <Link href='/calculadora'>
+                                <Link href='/simulador'>
                                     <a className="block mt-2">
                                         <p className="text-2xl font-bold text-blue-700">Simulador de juros</p>
                                         <p className="mt-3 text-base text-gray-500">Uma maneira fácil de calcular juros compostos para investimentos, poupança de aposentadoria, amortizações de empréstimos. Coisas assim.</p>

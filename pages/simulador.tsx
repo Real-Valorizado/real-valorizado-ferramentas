@@ -9,7 +9,7 @@ import Table from '../components/Table'
 
 
 
-export default function Calculadora() {
+export default function Simulador() {
     const initialCalcProps: CalcProps = {
         initial: 1000,
         payment: 1000,
