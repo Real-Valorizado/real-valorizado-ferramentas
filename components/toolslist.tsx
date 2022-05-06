@@ -50,7 +50,7 @@ export default function ToolsList() {
                     <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                         <div className="flex-shrink-0">
                             <div className="h-64 w-full relative">
-                                <Link href='/calculadora'>
+                                <Link href='/simulador'>
                                     <a className="block mt-2">
                                         <Image
                                             src="/tools/calculadora.jpg"
