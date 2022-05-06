@@ -29,7 +29,7 @@ export default function Simulador() {
     return (
         <div>
             <Head>
-                <title>Calculadora de juros composto | ferramentas.realvalorizado.com.br</title>
+                <title>Simulador de juros composto | ferramentas.realvalorizado.com.br</title>
                 <meta
                     name='description'
                     content='Uma maneira fácil de calcular juros compostos para poupança de aposentadoria, amortizações de empréstimos. Coisas assim.'
@@ -56,7 +56,7 @@ export default function Simulador() {
 
 
                     <div className="text-center">
-                        <h2 className="text-5xl tracking-tight font-extrabold text-blue-700 sm:text-4xl">Calculadora de juros composto</h2>
+                        <h2 className="text-5xl tracking-tight font-extrabold text-blue-700 sm:text-4xl">Simulador de juros composto</h2>
                         <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
                             Invista seu dinheiro e veja-o crescer ao longo do tempo. Falamos de juros sobre juros sobre juros.
                         </p>
