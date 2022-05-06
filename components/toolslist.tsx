@@ -16,15 +16,21 @@ export default function ToolsList() {
                 </div>
                 <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
 
+
+
                     <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                         <div className="flex-shrink-0">
                             <div className="h-64 w-full relative">
-                                <Image
-                                    src="/tools/chainlist.jpg"
-                                    layout="fill"
-                                    objectFit="cover"
-                                    alt=""
-                                />
+                                <Link href='https://chainlist.realvalorizado.com.br/'>
+                                    <a target="_blank" className="block mt-2">
+                                        <Image
+                                            src="/tools/chainlist.jpg"
+                                            layout="fill"
+                                            objectFit="cover"
+                                            alt=""
+                                        />
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="flex-1 bg-white p-6 flex flex-col justify-between">
@@ -39,15 +45,21 @@ export default function ToolsList() {
                         </div>
                     </div>
 
+
+
                     <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                         <div className="flex-shrink-0">
                             <div className="h-64 w-full relative">
-                                <Image
-                                    src="/tools/calculadora.jpg"
-                                    layout="fill"
-                                    objectFit="cover"
-                                    alt=""
-                                />
+                                <Link href='/calculadora'>
+                                    <a className="block mt-2">
+                                        <Image
+                                            src="/tools/calculadora.jpg"
+                                            layout="fill"
+                                            objectFit="cover"
+                                            alt=""
+                                        />
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="flex-1 bg-white p-6 flex flex-col justify-between">
@@ -62,15 +74,21 @@ export default function ToolsList() {
                         </div>
                     </div>
 
+
+
                     <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                         <div className="flex-shrink-0">
                             <div className="h-64 w-full relative">
-                                <Image
-                                    src="/tools/trading-valorizado.jpg"
-                                    layout="fill"
-                                    objectFit="cover"
-                                    alt=""
-                                />
+                                <Link href='/tradingvalorizado'>
+                                    <a className="block mt-2">
+                                        <Image
+                                            src="/tools/trading-valorizado.jpg"
+                                            layout="fill"
+                                            objectFit="cover"
+                                            alt=""
+                                        />
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="flex-1 bg-white p-6 flex flex-col justify-between">
@@ -85,8 +103,10 @@ export default function ToolsList() {
                         </div>
                     </div>
 
+
+
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
