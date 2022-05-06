@@ -15,7 +15,7 @@ export default function Home() {
         <meta property='og:type' content='article' />
         <meta
           property='og:title'
-          content='Calculadora de juros composto | ferramentas.realvalorizado.com.br'
+          content='Real Valorizado Ferramentas | Uma complicação das melhores ferramentas para o mercado financeiro'
         />
         <meta
           property='og:description'
