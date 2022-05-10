@@ -46,7 +46,7 @@ export default function Simulador() {
                 <meta property='og:url' content='https://ferramentas.realvalorizado.com.br/calculadora' />
                 <meta property='og:site_name' content='ferramentas.realvalorizado.com.br' />
 
-                <link rel='icon' href='/favicon.ico' />
+
 
             </Head>
 
