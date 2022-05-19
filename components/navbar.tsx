@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 const navigation = [
     { name: 'Chainlist', href: 'https://chainlist.realvalorizado.com.br/' },
-    { name: 'Simulador de Juros', href: '/simulador' },
-    { name: 'Trading Valorizado', href: '/tradingvalorizado' },
+    { name: 'Simulador', href: '/simulador' },
+    { name: 'Trading', href: '/tradingvalorizado' },
 ]
 
 export default function Navbar() {
@@ -57,11 +57,7 @@ export default function Navbar() {
                                     Site principal
                                 </a>
                             </Link>
-                            <Link href="https://realvalorizado.com.br/noticias">
-                                <a target="_blank" className="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50">
-                                    Notícias
-                                </a>
-                            </Link>
+
                         </div>
                     </div>
                     <div className="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
