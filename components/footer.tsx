@@ -114,19 +114,19 @@ export default function Footer() {
 
                 <div className="border-gray-200 pt-8 lg:flex lg:items-center lg:justify-between xl:mt-0">
                     <div>
-                        <p className="mt-2 text-base text-gray-500">
+                        <div className="mt-2 text-base text-gray-500">
                             Este site NÃO possuí vinculo com a Binance ou qualquer outra corretora, com a Coinmarketcap com o Facebook ou a Meta Inc, com o Google e Youtube ou a Alphabet Inc. Além disso, este site NÃO é endossado por essas empresas de nenhuma maneira. BINANCE, COINMARKETCAP, FACEBOOK, GOOGLE E YOUTUBE são marcas comerciais independentes. O widget de valor das moedas é de propriedadade da Coinmarketcap.
-                        </p>
-                        <p className="mt-2 text-base text-gray-500">
+                        </div>
+                        <div className="mt-2 text-base text-gray-500">
                             A Real Valorizado é uma empresa independente com o objetivo de ajudar pessoas a obterem resultados financeiros utilizando o poder das ferramentas do mercado finaceiro tradicional, e do novo mercado financeiro (Criptomoedas, Metaverso, Web 3.0, Games e NFTs). Não reivindicamos ou declaramos que ao usar os métodos, você ganhará dinheiro ou recuperará seu dinheiro. Os depoimentos mostrados são exemplos de pessoas reais e os resultados vão variar com base no seu esforço, investimento, no conhecimento que você adquirir e nas forças do mercado que estão além do controle de qualquer pessoa ou entidade.
-                        </p>
+                        </div>
                     </div>
 
                 </div>
                 <div className="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">
-                    <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
+                    <div className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
                         &copy; 2022 Real Valorizado, Todos os direitos reservados.
-                    </p>
+                    </div>
                 </div>
             </div>
         </footer >
