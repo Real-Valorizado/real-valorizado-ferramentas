@@ -12,8 +12,8 @@ export default function Cookies() {
                 location="bottom"
                 buttonText="Aceito"
                 cookieName="myAwesomeCookieName2"
-                style={{ background: "#141414" }}
-                buttonStyle={{ color: "#000", fontSize: "14px" }}
+                style={{ background: "#1e40af" }}
+                buttonStyle={{ color: "#cffafe", fontSize: "14px" }}
                 expires={150}
             >
                 Este site utiliza cookies, e possui formulários de contato.{" "}
